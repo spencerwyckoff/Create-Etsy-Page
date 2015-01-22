@@ -20,19 +20,59 @@
   </head>
   <body>
 
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Normalize CSS</li>
-        <li>Sass</li>
+  <header class="outer">
+    <header class="inner">
+      <div class="header-left">
+        <img src="images/Etsy_logo.png">
+        <form>
+          <input type="text" name="search" value="Search for items or shops">
+        </form>
+        <button>Search</button>
+        <div class="browse">
+          <span>Browse</span>
+          <div class="triangle"></div>
+        </div>
+      </div>
 
-        <li>Bourbon & Neat</li>
+      <div class="header-right">
+        <div class="header-links">
+          <a href="#">Help</a>
+          <a href="#">Register</a>
+          <div class="sign-in">
+            <span>Sign In</span>
+          </div>
+        </div>
+        
+        <div class="cart">
+          <img src="images/cart.png">
+          <span>Cart</span>
+        </div>
+      </div>
+    </header>
+  </header>
 
-      </ul>
-      <p>Don't forget to update your readme file!!</p>
-    </div>
+    <section class="left-sidebar">
+      <div class="inner-sidebar">This is a sidebar div</div>
+    </section>
+
+    <section class="container">      
+    </section>
+
+    <footer></footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
@@ -41,6 +81,7 @@
     <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->
+        <script src="scripts/etsy.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>

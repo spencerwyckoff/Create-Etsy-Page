@@ -23,9 +23,10 @@ console.log(image);
 
 //SET THE CONTENT OF THE ITEM BY CONCATENATING THEM TOGETHER
 listing = "<div class='listing'>"; 
-listing += "<img src='" + image + "'/>";
-listing += "<h4 class='l_title'>" + title + "</h4>";
-listing += "<span class='l_shop_name'>" + shopName + "</span>";
+listing += "<a href='#'><img src='" + image;
+listing += "' title='" + title + "'/></a>";
+listing += "<h4 class='l_title'><a href='#'>" + title + "</a></h4>";
+listing += "<span class='l_shop_name'><a href='#'>" + shopName + "</a></span>";
 
 
 listing += "<span class='l_price'>" + "$" + price + " " + currency + "</span>";
@@ -36,6 +37,8 @@ listingsContainer.append(listing);
 
 //CLOSE THE FUNCTION
 });
+
+
 
 
 

@@ -16,12 +16,15 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-
   </head>
+  
   <body>
 
+<!-- HEADER CONTENT -->
   <header class="outer">
+    
     <header class="inner">
+      
       <div class="header-left">
         <img src="images/Etsy_logo.png">
         <form>
@@ -48,10 +51,12 @@
           <span>Cart</span>
         </div>
       </div>
+
     </header>
+
   </header>
 
-    
+<!-- LEFT SIDEBAR CONTENT -->
     <section class="left-outer">
       <span>Show results for:</span>
       <div class="left-inner">
@@ -77,7 +82,9 @@
             </li>
           </ul>
         </div>
+
         <br/>
+
         <hr style="color:#DFDFDF;background-color:#DFDFDF;height:1px;border:none;" />
 
         <div id="filter-marketplace">
@@ -161,12 +168,34 @@
               </li>
             </ul>
           </div>
+        </div>
 
+        <div class="shop-location-filter">
+          <h4>Shop Location</h4>
+          <ul class="marketplace-form">
+            <li>
+              <input type="radio" name="marketplace" value="" checked="checked">
+              <label>Anywhere</label>
+            </li>
+            <li>
+              <input type="radio" name="marketplace" value="">
+              <label>United States</label>
+            </li>
+        </div>
 
+        <div class="shipping-filter">
+          <h4>Ships To</h4>
+          <a href="#"><span>Clear</span></a>
+          <form>            
+            <input type="drop-down" name="shipping" value="United States">          
+            <!-- <div class="drop-triangle"></div> -->
+          </form>
+        </div>
 
       </div>
     </section>
 
+<!-- MAIN BODY CONTENT -->
     <section class="outer-container">
       <div class="results-heading">
         <span><strong>"atlanta braves"</strong> We found 1,552 items!</span>  
@@ -177,11 +206,90 @@
           </select>
         </div>      
       </div>
-      
-      <div class="container">      
-      
+    <!-- ALL OF THE LISTINGS   -->
+      <div class="container"> 
+      </div>
+      <!-- RELATED SEARCHES AT BOTTOM -->
+      <div class="related-searches">
+        <h3>Related to <strong>atlanta braves</strong></h3>
+        <ul>
+          <li>
+            <a href="#">atlanta braves shirt</a>
+          </li>
+          <li>
+            <a href="#">atlanta braves baby</a>
+          </li>
+          <li>
+            <a href="#">chipper jones</a>
+          </li>
+        </ul>
+        
+        <ul>
+          <li>
+            <a href="#">baseball</a>
+          </li>
+          <li>
+            <a href="#">georgia tech</a>
+          </li>
+          <li>
+            <a href="#">georgia</a>
+          </li>
+        </ul>
+        
+        <ul>
+          <li>
+            <a href="#">monogram</a>
+          </li>
+        </ul>
       </div>
 
+      <div class="page-wrapper">
+        <div class="pages-control">
+          <ol>
+            <li>
+              <a href="#">1</a>
+            </li>
+            <li>
+              <a href="#">2</a>
+            </li>
+            <li>
+              <a href="#">3</a>
+            </li>
+            <li>
+              <a href="#">4</a>
+            </li>
+            <li>
+              <a href="#">5</a>
+            </li>
+            <li>
+              <a href="#">6</a>
+            </li>
+            <li>
+              <a href="#">7</a>
+            </li>
+            <li>
+              <a href="#">8</a>
+            </li>
+            <li>
+              <a href="#">...</a>
+            </li>
+            <li>
+              <a href="#">37</a>
+            </li>
+          </ol>
+          
+          <div class="nav-container">
+            <div class="circle" id ="prev-page">
+              <div class="b-triangle"></div>
+            </div>
+
+            <div class="circle" id= "next-page">
+              <div class="f-triangle"></div>
+            </div>
+          </div>
+        
+        </div>
+      </div>
 
     </section>
 
